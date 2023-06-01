@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 const Home = () => {
   const [groceries, Setgroceries] = useState(null);
   const [initialData, SetinitialData] = useState(null);
-  const list = [];
 
   useEffect(() => {
     fetch("http://localhost:4000/groceries")
@@ -39,8 +38,20 @@ const Home = () => {
 
   const handleClick = (e) => {
     const listItem = initialData.filter((item) => item.id == e.target.value);
-    list.push(listItem);
-    console.log(list);
+
+    const opts = {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(listItem[0]),
+    };
+
+    fetch("http://localhost:4000/lists", opts)
+      .then((response) => response.json())
+      .then((data) => {
+        console.log("POST Done");
+      });
   };
 
   return (

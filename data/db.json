@@ -113,6 +113,62 @@
       "store": "Lidl",
       "price": "1.8",
       "id": 19
+    },
+    {
+      "type": "Newspaper",
+      "store": "M&S",
+      "price": "1",
+      "id": 20
+    }
+  ],
+  "lists": [
+    {
+      "type": "Eggs",
+      "store": "Tesco",
+      "price": 3,
+      "id": 1
+    },
+    {
+      "type": "Eggs",
+      "store": "M&S",
+      "price": 4,
+      "id": 2
+    },
+    {
+      "type": "Eggs",
+      "store": "Lidl",
+      "price": 2.5,
+      "id": 3
+    },
+    {
+      "type": "Milk",
+      "store": "Tesco",
+      "price": 1.5,
+      "id": 4
+    },
+    {
+      "type": "Lettuce",
+      "store": "Lidl",
+      "price": 1.5,
+      "id": 5
+    },
+    {
+      "type": "Milk",
+      "store": "M&S",
+      "price": 1.8,
+      "id": 6
+    },
+    {
+      "type": "Flour",
+      "store": "Lidl",
+      "price": 2,
+      "id": 7
+    },
+    {
+      "type": "Toilet Rolls",
+      "store": "Tesco",
+      "price": 3.5,
+      "id": 8
     }
   ]
 }
