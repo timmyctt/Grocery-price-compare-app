@@ -11,7 +11,7 @@ const Yourlist = () => {
       .then((data) => {
         Setlist(data);
       });
-  }, [list]);
+  }, []);
 
   const handleDelete = (e) => {
     const opts = {
@@ -25,7 +25,13 @@ const Yourlist = () => {
       .then((response) => response.json())
       .then((data) => {
         console.log("Delete");
-        Setlist(null);
+        fetch("http://localhost:4000/lists")
+          .then((res) => {
+            return res.json();
+          })
+          .then((data) => {
+            Setlist(data);
+          });
       });
   };
 
@@ -42,9 +48,9 @@ const Yourlist = () => {
       {list &&
         list.map((item) => (
           <div key={item.id}>
-            <p>
+            <p className="groceriesList">
               {item.type}, £{item.price}, from {item.store}
-              <button value={item.id} onClick={handleDelete}>
+              <button value={item.id} onClick={handleDelete} className="button">
                 Remove
               </button>
             </p>

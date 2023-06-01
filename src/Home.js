@@ -70,7 +70,7 @@ const Home = () => {
       {groceries &&
         groceries.map((groceries) => (
           <div key={groceries.id}>
-            <p>
+            <p className="groceriesList">
               {groceries.type}, £{groceries.price}, from {groceries.store}
               <button onClick={handleClick} value={groceries.id}>
                 Add to list

@@ -7,7 +7,13 @@ const Navbar = () => {
         <p>
           <NavLink
             style={({ isActive }) => {
-              return isActive ? { fontSize: "larger", color: "yellow" } : {};
+              return isActive
+                ? {
+                    padding: "3px",
+                    borderRadius: "10px",
+                    border: "2px solid orange",
+                  }
+                : {};
             }}
             to={"/"}
           >
@@ -17,7 +23,13 @@ const Navbar = () => {
         <p>
           <NavLink
             style={({ isActive }) => {
-              return isActive ? { fontSize: "larger", color: "yellow" } : {};
+              return isActive
+                ? {
+                    padding: "3px",
+                    borderRadius: "10px",
+                    border: "2px solid orange",
+                  }
+                : {};
             }}
             to={"/newprice"}
           >
@@ -27,7 +39,13 @@ const Navbar = () => {
         <p>
           <NavLink
             style={({ isActive }) => {
-              return isActive ? { fontSize: "larger", color: "yellow" } : {};
+              return isActive
+                ? {
+                    padding: "3px",
+                    borderRadius: "10px",
+                    border: "2px solid orange",
+                  }
+                : {};
             }}
             to={"/yourlist"}
           >

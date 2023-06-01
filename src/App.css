@@ -5,9 +5,11 @@
   height: 100vh;
 }
 
+
+
 .groceriesList:hover {
   color: darkorange;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .navbar {

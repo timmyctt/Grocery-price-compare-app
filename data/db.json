@@ -157,18 +157,6 @@
       "store": "M&S",
       "price": 1.8,
       "id": 6
-    },
-    {
-      "type": "Flour",
-      "store": "Lidl",
-      "price": 2,
-      "id": 7
-    },
-    {
-      "type": "Toilet Rolls",
-      "store": "Tesco",
-      "price": 3.5,
-      "id": 8
     }
   ]
 }
