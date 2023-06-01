@@ -1,0 +1,118 @@
+{
+  "groceries": [
+    {
+      "type": "Eggs",
+      "store": "Tesco",
+      "price": 3,
+      "id": 1
+    },
+    {
+      "type": "Eggs",
+      "store": "M&S",
+      "price": 4,
+      "id": 2
+    },
+    {
+      "type": "Eggs",
+      "store": "Lidl",
+      "price": 2.5,
+      "id": 3
+    },
+    {
+      "type": "Milk",
+      "store": "Tesco",
+      "price": 1.5,
+      "id": 4
+    },
+    {
+      "type": "Lettuce",
+      "store": "Lidl",
+      "price": 1.5,
+      "id": 5
+    },
+    {
+      "type": "Milk",
+      "store": "M&S",
+      "price": 1.8,
+      "id": 6
+    },
+    {
+      "type": "Flour",
+      "store": "Lidl",
+      "price": 2,
+      "id": 7
+    },
+    {
+      "type": "Toilet Rolls",
+      "store": "Tesco",
+      "price": 3.5,
+      "id": 8
+    },
+    {
+      "type": "Toilet Rolls",
+      "store": "Lidl",
+      "price": 3.4,
+      "id": 9
+    },
+    {
+      "type": "Toilet Rolls",
+      "store": "M&S",
+      "price": 3.8,
+      "id": 10
+    },
+    {
+      "type": "Apple",
+      "store": "Tesco",
+      "price": "1.8",
+      "id": 11
+    },
+    {
+      "type": "Orange",
+      "store": "M&S",
+      "price": "2",
+      "id": 12
+    },
+    {
+      "type": "Apple",
+      "store": "M&S",
+      "price": "2",
+      "id": 13
+    },
+    {
+      "type": "orange",
+      "store": "Tesco",
+      "price": "2",
+      "id": 14
+    },
+    {
+      "type": "Cheese",
+      "store": "Tesco",
+      "price": "3",
+      "id": 15
+    },
+    {
+      "type": "Cheese",
+      "store": "Lidl",
+      "price": "3",
+      "id": 16
+    },
+    {
+      "type": "cheese",
+      "store": "M&S",
+      "price": "3",
+      "id": 17
+    },
+    {
+      "type": "spaghetti",
+      "store": "Lidl",
+      "price": "1",
+      "id": 18
+    },
+    {
+      "type": "Milk",
+      "store": "Lidl",
+      "price": "1.8",
+      "id": 19
+    }
+  ]
+}

@@ -1,38 +1,36 @@
 .App {
+  margin: 0;
+  color: orange;
   text-align: center;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.groceriesList:hover {
+  color: darkorange;
+  font-weight: bolder;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar {
+  display: grid;
+  grid-template-columns: 60% 40%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.navButton {
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0, 100px));
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-items: end;
+
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  color: orange;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.added {
+  font-weight: bold;
+  color: pink;
+  font-size: large;
 }
