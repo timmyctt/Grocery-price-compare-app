@@ -119,6 +119,12 @@
       "store": "M&S",
       "price": "1",
       "id": 20
+    },
+    {
+      "type": "Newspaper",
+      "store": "Lidl",
+      "price": "1",
+      "id": 21
     }
   ],
   "lists": [

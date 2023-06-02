@@ -9,6 +9,7 @@ const Navbar = () => {
             style={({ isActive }) => {
               return isActive
                 ? {
+                    fontSize: "larger",
                     padding: "3px",
                     borderRadius: "10px",
                     border: "2px solid orange",
