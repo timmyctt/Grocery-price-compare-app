@@ -9,8 +9,7 @@ const Navbar = () => {
             style={({ isActive }) => {
               return isActive
                 ? {
-                    fontSize: "larger",
-                    padding: "3px",
+                    padding: "10px",
                     borderRadius: "10px",
                     border: "2px solid orange",
                   }
@@ -26,7 +25,7 @@ const Navbar = () => {
             style={({ isActive }) => {
               return isActive
                 ? {
-                    padding: "3px",
+                    padding: "10px",
                     borderRadius: "10px",
                     border: "2px solid orange",
                   }
@@ -42,7 +41,7 @@ const Navbar = () => {
             style={({ isActive }) => {
               return isActive
                 ? {
-                    padding: "3px",
+                    padding: "10px",
                     borderRadius: "10px",
                     border: "2px solid orange",
                   }

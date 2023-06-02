@@ -31,6 +31,7 @@ const Newprice = () => {
   return (
     <>
       <h1>Add price ££</h1>
+      <br />
       <div>
         <form onSubmit={handleSubmit}>
           <input type="text" placeholder="Grocery type"></input>
@@ -53,6 +54,9 @@ const Newprice = () => {
           Thank you for adding price for <span className="added">{added}</span>!
         </p>
       )}
+      <br />
+      <br />
+      <br />
     </>
   );
 };

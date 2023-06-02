@@ -60,6 +60,7 @@ const Yourlist = () => {
         <input type="email" placeholder="Your Email" required></input>
         <button>Email this list to you!</button>
       </form>
+      <br />
     </>
   );
 };

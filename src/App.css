@@ -3,6 +3,7 @@
   color: orange;
   text-align: center;
   height: 100vh;
+
 }
 
 
@@ -25,6 +26,7 @@
   align-items: center;
   justify-items: end;
 
+
 }
 
 a {
@@ -36,4 +38,95 @@ a {
   font-weight: bold;
   color: pink;
   font-size: large;
+}
+
+.content {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.44);
+  margin: 20px 700px;
+  min-width: 500px;
+
+}
+
+@media only screen and (max-width: 1700px) {
+  .content {
+    margin: 20px 600px;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .content {
+    margin: 20px 500px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .content {
+    margin: 20px 450px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .content {
+    margin: 20px 400px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .content {
+    margin: 20px 330px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .content {
+    margin: 20px 250px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .content {
+    margin: 20px 200px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .content {
+    margin: 20px 150px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .content {
+    margin: 20px 100px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .content {
+    margin: 20px 20px;
+  }
+
+  .navbar {
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .content {
+    margin: 20px 0px;
+    min-width: 200px;
+  }
 }

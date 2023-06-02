@@ -125,6 +125,12 @@
       "store": "Lidl",
       "price": "1",
       "id": 21
+    },
+    {
+      "type": "Newspaper",
+      "store": "Tesco",
+      "price": "1",
+      "id": 22
     }
   ],
   "lists": [
